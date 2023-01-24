@@ -1,8 +1,10 @@
 s = open('studentnames.txt', 'r')
-print(s.readline().rstrip('\n'))
-print(s.readline().rstrip('\n'))
-print(s.readline().rstrip('\n'))
-print(s.readline().rstrip('\n'))
-print(s.readline().rstrip('\n'))
-print(s.readline().rstrip('\n'))
+temp = s.readline().rstrip('\n')
+print temp
+count = 1
+while (temp != ""):
+  temp = s.readline().rstrip('\n'))
+  print(temp)
+  count += 1
+print(count) #prints number of students
 s.close()
